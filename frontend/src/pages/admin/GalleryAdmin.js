@@ -34,7 +34,7 @@ const GalleryAdmin = () => {
     }
   };
 
-  useEffect(() => { fetchGallery(); }, [filter]);
+  useEffect(() => { fetchGallery(); }, [fetchGallery]);
 
   const handleFileChange = (e) => {
     const f = e.target.files[0];
