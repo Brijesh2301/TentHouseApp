@@ -9,3 +9,4 @@ uploads/*.png
 uploads/*.mp4
 uploads/*.webp
 .env.local
+.env.example
