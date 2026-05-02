@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   UploadOutlined, DeleteOutlined, StarOutlined, StarFilled,
-  PictureOutlined, FilterOutlined, CloseOutlined
+  PictureOutlined,  CloseOutlined
 } from '@ant-design/icons';
 import AdminLayout from '../../components/admin/AdminLayout';
 import { getGallery, uploadMedia, updateMedia, deleteMedia } from '../../utils/api';

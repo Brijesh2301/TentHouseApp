@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import {
-  SearchOutlined, EditOutlined, DeleteOutlined,
+  SearchOutlined,  DeleteOutlined,
   CalendarOutlined, EyeOutlined, FilterOutlined
 } from '@ant-design/icons';
 import AdminLayout from '../../components/admin/AdminLayout';
