@@ -1,0 +1,2 @@
+This directory is used for local file uploads when Cloudinary is not configured.
+Files uploaded here are served at /uploads/* endpoint.
